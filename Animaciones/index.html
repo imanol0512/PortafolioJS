@@ -6,9 +6,9 @@
     <title>Graficos 2D con HTML y Javascrip</title>
     <style>
         body {
-            font-family:'Courier New', Courier, monospace;
+            font-family:'Minecraft';
             width: 100wh;
-            height: 100vh;
+            height: 95vh;
             background-color: black;
             display: grid;
             place-items: center;
@@ -24,15 +24,20 @@
         }
         canvas {
             background-color: black;
-                
+            box-shadow: 0px 0px 10px 5px greenyellow;    
+        }
+        span {
+            font-family:'Minecraft';
+            color: red;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1> Graficas 2D con HTML y Javascrip</h1>
-        <canvas id="lienzo" width="650" height="400"></canvas>
+        <h1> Graficas 2D con HTML y JavaScrip</h1>
+        <h2>Se ha comido <span></span> Moscas</h2>
+        <canvas id="lienzo" width="600" height="400"></canvas>
     </div>
-    <script src="./moves.js"></script>
+    <script src="./snake.js"></script>
 </body>
 </html>
